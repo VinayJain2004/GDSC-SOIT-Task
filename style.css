@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 8px;
+    box-sizing: border-box;
+    font-family: 'Montserrat' , 'Sans-serif';
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* Navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links ul{
+    display: flex;
+}
+
+/* Header */
+
+.head , .numbers{
+    display: flex;
+}
+.head-img img{
+    background-image: url(./img/asset\ 24.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shoes img{
+    background-image: url(./img/asset\ 25.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Popular Products */
+
+.cards{
+    display: flex;
+}
+
+/* Details */
+
+.details{
+    display: flex;
+}
+
+/* Extra Cards */
+
+.cards-2{
+    display: flex;
+}
+
+/* Offers */
+
+.offers{
+    display: flex;
+}
+
+/* Customer Review */
+
+.cust-cards{
+    display: flex;
+}
+
+/* News */
+
+.news{
+    display: flex;
+}
+
+/* Footer */
+
+.links{
+    display: flex;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+}
+.copyright p{
+    align-items: center;
+}
