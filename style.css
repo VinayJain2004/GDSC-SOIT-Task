@@ -204,6 +204,31 @@ button{
     display: flex;
     margin-top: 80px;
     margin-left: 60px;
+    align-items: center;
+}
+.offers h1{
+    display: flex;
+    gap: 20px;
+    font-size: 40px;
+}
+.offers p{
+    color: #6d6d6d;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 40px;
+    width: 80%;
+}
+.button{
+    display: flex;
+}
+.offers button{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.secondary-btn{
+    color: #6d6d6d;
+    border: 2px solid #6d6d6d;
+    background-color: #fff;
 }
 
 /* Customer Review */
@@ -211,10 +236,40 @@ button{
 .customer{
     background-color: #f5f6ff;
     margin-top: 80px;
-    margin-left: 60px;
+    padding: 60px 0;
+    padding-left: 60px;
+    text-align: center;
+}
+.customer h1{
+    font-size: 40px;
+}
+.customer p{
+    color: #6d6d6d;
+    font-size: 18px;
+    line-height: 28px;
 }
 .cust-cards{
     display: flex;
+    margin-top: 80px;
+    gap: 40px;
+}
+.cust-card{
+    width: 30%;
+    margin-left: 160px;
+}
+.cust-card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.cust-card div{
+    display: flex;
+    justify-content: center;
+}
+.star img{
+    height: 30px;
+    width: 30px;
+    border-radius: 0%;
 }
 
 /* News */
@@ -225,20 +280,70 @@ button{
     margin-top: 80px;
     margin-bottom: 60px;
 }
+.news h1{
+    font-size: 40px;
+    width: 50%;
+    line-height: 68px;
+    margin-left: 100px;
+}
+.news-box{
+    display: flex;
+    border: 1px solid #6d6d6d;
+    padding: 8px;
+    border-radius: 999px;
+    height: 80px;
+    align-items: center;
+    margin-top: 70px;
+    font-weight: 200;
+    padding: 0 20px;
+}
 
 /* Footer */
 
 .footer{
-    padding-left: 40px;
+    padding-left: 60px;
     padding-top: 60px;
 }
 .links{
     display: flex;
+    gap: 80px;
+}
+.link-1{
+    width: 40%;
+}
+.link-1 p{
+    font-size: 16px;
+    line-height: 28px;
+    width: 60%;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.link ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.link a{
+    color: #ffffff;
+}
+.media{
+    display: flex;
+    gap: 12px;
+}
+.media img{
+    padding: 8px;
 }
 .copyright{
     display: flex;
     align-items: center;
-}
-.copyright p{
-    align-items: center;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    padding-right: 40px;
 }
